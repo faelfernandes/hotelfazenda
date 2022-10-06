@@ -67,8 +67,8 @@ Para uma melhor visualização clique no gif para ver em tela cheia, te ajuda a 
 <hr>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/faelfernandes/hotelfazenda/main/assets/hotelfazendaapp.gif" target="_blank">
-    <img alt="Demonstração" src="https://raw.githubusercontent.com/faelfernandes/hotelfazenda/main/assets/hotelfazendaapp.gif">
+  <img alt="Demonstração" src="https://user-images.githubusercontent.com/11529722/194431982-10c59636-f4d7-4105-9e32-0e4b3941113c.gif">
+  <a href="https://user-images.githubusercontent.com/11529722/194431982-10c59636-f4d7-4105-9e32-0e4b3941113c.gif" target="_blank">
     <br> Clique para ver em tela cheia <br> 
   </a>
 </p>
