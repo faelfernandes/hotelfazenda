@@ -1,38 +1,33 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Header as HeaderRNE, lightColors } from '@rneui/themed';
+import { Header as HeaderRNE } from '@rneui/themed';
 
-const AppBar = (props) => {
+const AppBar = () => {
   return (
     <HeaderRNE
+      rightComponent={{
+        icon: 'menu',
+        color: '#fff',
+      }}
+      leftComponent={{
+        icon: 'home',
+        color: '#fff',
+      }}
       centerComponent={{ text: 'Hotel Fazenda', style: styles.heading }}
-      backgroundColor="#007159"
+      backgroundColor="#000"
+      containerStyle={{
+        borderBottomColor: "transparent",
+        paddingHorizontal: 20,
+        paddingVertical:20,
+      }}
     />
   );
 };
 
 const styles = StyleSheet.create({
-  headerContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#007159',
-    marginBottom: 20,
-    width: '100%',
-    paddingVertical: 15,
-  },
   heading: {
     color: 'white',
     fontSize: 22,
-    fontWeight: 'bold',
-  },
-  headerRight: {
-    display: 'flex',
-    flexDirection: 'row',
-    marginTop: 5,
-  },
-  subheaderText: {
-    color: 'white',
-    fontSize: 16,
     fontWeight: 'bold',
   },
 });

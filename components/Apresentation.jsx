@@ -1,33 +1,21 @@
 import React from 'react';
-import { View, ScrollView, StyleSheet, useWindowDimensions } from 'react-native';
-import { Text, Tile } from '@rneui/themed';
+import { useWindowDimensions } from 'react-native';
+import { Tile } from '@rneui/themed';
 
 const Apresentation = () => {
   const window = useWindowDimensions();
   return (
     <Tile
-      imageSrc={{
-        uri:
-          'https://www.mediastorehouse.com/p/191/sunset-porthmeor-beach-st-ives-cornwall-11702500.jpg.webp',
-      }}
+      imageSrc={require('../assets/images/header.jpg')}
       title="Toda a saúde e segurança para viver de perto o melhor da vida."
-      titleStyle={{ fontSize: 15 }}
+      titleStyle={{ fontSize: 24, fontWeight: 'bold' }}
       featured
-      caption="Hotel Fazenda"
+      caption="- Hotel Fazenda"
       activeOpacity={1}
       width={window.width}
+      height={200}
     />
   );
 };
-
-const styles = StyleSheet.create({
-  subHeader: {
-    backgroundColor: "#2089dc",
-    color: "white",
-    textAlign: "center",
-    paddingVertical: 5,
-    marginBottom: 10
-  }
-});
 
 export default Apresentation;
