@@ -63,7 +63,7 @@ npx expo start
 
 ## **Demonstração**
 
-Para uma melhor visualização clique no gif para ver em tela cheia, te ajuda a enchergar os detalhes.
+Para uma melhor visualização clique no gif para ver em tela cheia, te ajuda a enxergar os detalhes.
 <hr>
 
 <p align="center">
