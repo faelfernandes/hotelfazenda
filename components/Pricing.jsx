@@ -13,7 +13,7 @@ const Pricing = () => {
         title="Diária"
         price="R$150"
         pricingStyle={{ color: 'white' }}
-        info={['- 1 pessoas', '- Check-in: 16h - Check-out: 14h']}
+        info={['- 1 pessoa', '- Check-in: 16h - Check-out: 14h']}
         button={{ title: 'Ver mais' }}
         containerStyle={{
           borderRadius: 10,
