@@ -1,10 +1,8 @@
 <div align="center">
 <img src="https://miro.medium.com/max/1400/1*safAvjgR68qpQCreDTOcYA.png" width="400">
 </div>
-<br>
-
 <h4 align="center">
-  Repositório criado para o trabalho da **Faculdade** da disciplina **Programação Para Dispositivos Móveis**. <br>
+  Repositório criado para o trabalho da Faculdade da disciplina Programação Para Dispositivos Móveis. <br>
   O projeto Hotel Fazenda foi criado com React Native e Expo.
 </h4>
 <p align="center">
