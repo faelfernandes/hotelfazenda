@@ -49,6 +49,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     paddingTop: 24,
     paddingLeft: 24,
+    fontFamily: 'MontserratRegular',
+    fontWeight: 'normal',
   },
   item: {
     margin: 10,

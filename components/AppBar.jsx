@@ -18,7 +18,7 @@ const AppBar = () => {
       containerStyle={{
         borderBottomColor: "transparent",
         paddingHorizontal: 20,
-        paddingVertical:20,
+        paddingVertical: 20,
       }}
     />
   );
@@ -29,6 +29,8 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 22,
     fontWeight: 'bold',
+    fontFamily: 'MontserratBold',
+    fontWeight: 'normal',
   },
 });
 
